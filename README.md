@@ -10,3 +10,8 @@ Sources:
 In order to run C++ on Mac, I had to download XCode from the App Store. The Apple Clang compiler comes included with XCode, so there's no need to download anything else. C++ does not come with a recommended programming environment, so I will be using XCode. 
 Single-line comments in C++ start with two forward slashes (//)
 Multi-line comments start with /* and end with */
+
+## Data Types and Naming Conventions
+- C++ does have keywords that can not be used as variable names. C++20 has 81 keywords.
+- Variables must start with an alphabet, but they can include underscores and numbers.
+- 
