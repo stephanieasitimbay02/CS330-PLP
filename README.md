@@ -18,4 +18,10 @@ Multi-line comments start with /* and end with */
 - C++ is statically typed, meaning if you declare a variable as an int, you cannot later store a string in that variable.
 - There's some debate on whether C++ is more strongly or weakly typed because it does allow for some implicit conversions, making it not as strong as it could be
 - C++ is generally explicitly typed because you must always declare variable types.
-- 
+Sources:
+- https://en.cppreference.com/w/cpp/keywords.html
+- https://www.geeksforgeeks.org/cpp/naming-convention-in-c/
+- https://www.geeksforgeeks.org/cpp/cpp-keywords/
+- https://www.w3schools.com/cpp/cpp_arrays.asp
+- https://www.geeksforgeeks.org/cpp/how-to-create-a-dictionary-in-cpp/
+- ​​https://www.geeksforgeeks.org/cpp/cpp-pointers/ 
