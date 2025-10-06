@@ -14,4 +14,8 @@ Multi-line comments start with /* and end with */
 ## Data Types and Naming Conventions
 - C++ does have keywords that can not be used as variable names. C++20 has 81 keywords.
 - Variables must start with an alphabet, but they can include underscores and numbers.
+- Both camelCase and snake_case are acceptable to use for naming variables in C++
+- C++ is statically typed, meaning if you declare a variable as an int, you cannot later store a string in that variable.
+- There's some debate on whether C++ is more strongly or weakly typed because it does allow for some implicit conversions, making it not as strong as it could be
+- C++ is generally explicitly typed because you must always declare variable types.
 - 
