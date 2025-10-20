@@ -24,4 +24,11 @@ Sources:
 - https://www.geeksforgeeks.org/cpp/cpp-keywords/
 - https://www.w3schools.com/cpp/cpp_arrays.asp
 - https://www.geeksforgeeks.org/cpp/how-to-create-a-dictionary-in-cpp/
-- ​​https://www.geeksforgeeks.org/cpp/cpp-pointers/ 
+- ​​https://www.geeksforgeeks.org/cpp/cpp-pointers/
+
+## Control Statements
+- C++ has boolean values of true and false and 0 and 1. However, all integers besides 0 will evaluate to true as well.
+- C++ supports if, else if, else, and switch statements
+- The beginning and end of code blocks under each condition in if/else if/else statements are marked by curly brackets
+- The beginning of a code block under a case in a switch statement is marked by a semicolon and indentation. All cases and their code blocks are inside of curly brackets
+- C++ does use short-circuit evaluation for && and || statements
