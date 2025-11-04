@@ -30,6 +30,11 @@ Sources:
 - C++ has boolean values of true and false and 0 and 1. However, all integers besides 0 will evaluate to true as well.
 - C++ supports if, else if, else, and switch statements
 - The beginning and end of code blocks under each condition in if/else if/else statements are marked by curly brackets
-- The beginning of a code block under a case in a switch statement is marked by a semicolon and indentation. All cases and their code blocks are inside of curly brackets
+- The beginning of a code block under a case in a switch statement is marked by a semicolon and indentation. All cases and their code blocks are inside curly brackets
 - C++ does use short-circuit evaluation for && and || statements
 - For switch statements, you must use break to prevent the program from continuing to the next case
+
+## Functions
+- The syntax for declaring a function in C++ is: return type function name(parameter type parameter) {function code}
+- Functions should be defined above their function calls. For example, if you're calling all your functions inside main(), all function definitions should come before main()
+- C++ fully supports recursive functions
