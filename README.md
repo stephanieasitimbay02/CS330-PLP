@@ -38,3 +38,10 @@ Sources:
 - The syntax for declaring a function in C++ is: return type function name(parameter type parameter) {function code}
 - Functions should be defined above their function calls. For example, if you're calling all your functions inside main(), all function definitions should come before main()
 - C++ fully supports recursive functions
+- Functions can accept as many parameters as you want, and they can be of various data types.
+- Functions in C++ do not allow you to return multiple values at the same time, but there are ways around this issue:
+  - You can use pointers to pass variables by their address and make changes using a pointer variable
+  - You can return multiple values using structures. Structures are user-defined data types that allow you to store items of different data types.
+  - You can return multiple values in an array, but they must be of the same data type.
+- C++ uses both pass-by-value and pass-by-reference. The default is pass-by-value, but you can pass-by-reference using pointers.
+- Arguments, parameters, and local variables are stored as values on the stack, but they can be stored as references to the heap by using the keyword "new" followed by the constructor of what you want to allocate.
