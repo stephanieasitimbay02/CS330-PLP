@@ -30,6 +30,13 @@ Sources:
 - C++ has boolean values of true and false and 0 and 1. However, all integers besides 0 will evaluate to true as well.
 - C++ supports if, else if, else, and switch statements
 - The beginning and end of code blocks under each condition in if/else if/else statements are marked by curly brackets
+```c++
+int x = 5;
+
+if (x) {
+        cout<< "5 evaluates to true"<< endl;
+    }
+```
 - The beginning of a code block under a case in a switch statement is marked by a semicolon and indentation. All cases and their code blocks are inside curly brackets
 - C++ does use short-circuit evaluation for && and || statements
 - For switch statements, you must use break to prevent the program from continuing to the next case
