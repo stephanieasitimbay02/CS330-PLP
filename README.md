@@ -30,7 +30,8 @@ Sources:
 - C++ has boolean values of true and false and 0 and 1. However, all integers besides 0 will evaluate to true as well.
 - C++ supports if, else if, else, and switch statements
 - The beginning and end of code blocks under each condition in if/else if/else statements are marked by curly brackets
-```c++
+- The example below will evaluate to true and print "5 evaluates to true"
+ ```c++
 int x = 5;
 
 if (x) {
