@@ -56,3 +56,5 @@ if (x) {
 
 ## Classes and Inheritance
 - C++ supports objects through classes and structs
+- Classes and objects will typically use UpperCamelCase where the first letter of each word is uppercase. Their methods and functions will typically be in camelCase where the first letter is lowercase, or snake_case with all lowercase letters.
+- 
