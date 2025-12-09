@@ -21,7 +21,8 @@ int main() {
     return 0;
 }
 ```
-
+Line-by-line walkthrough
+ - 
 ## Data Types and Naming Conventions
 - C++ does have keywords that can not be used as variable names. C++20 has 81 keywords.
 - Variables must start with an alphabet, but they can include underscores and numbers.
