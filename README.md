@@ -21,8 +21,10 @@ int main() {
     return 0;
 }
 ```
-Line-by-line walkthrough
- - 
+The first line imports the iostream library, which enables us to use input/output commands such as cout.
+The second line tells the compiler that we are using the standard namespace, allowing us to use cout instead of std::cout every time.
+We then define our main function, which must return an int. 0 normally signifies successful program execution, whereas another number may indicate errors. 
+We use the cout command to print "Hello, World!" to the terminal, and endl will create a new line after our string. We then return 0 to indicate a successful program execution.
 ## Data Types and Naming Conventions
 - C++ does have keywords that can not be used as variable names. C++20 has 81 keywords.
 - Variables must start with an alphabet, but they can include underscores and numbers.
