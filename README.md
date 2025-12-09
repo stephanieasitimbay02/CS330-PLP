@@ -11,6 +11,17 @@ In order to run C++ on Mac, I had to download XCode from the App Store. The Appl
 Single-line comments in C++ start with two forward slashes (//)
 Multi-line comments start with /* and end with */
 
+Simple Hello World Program in C++:
+```c++
+#include <iostream>
+using namespace std;
+int main() {
+    
+    cout << "Hello, World!" << endl;
+    return 0;
+}
+```
+
 ## Data Types and Naming Conventions
 - C++ does have keywords that can not be used as variable names. C++20 has 81 keywords.
 - Variables must start with an alphabet, but they can include underscores and numbers.
