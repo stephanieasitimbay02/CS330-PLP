@@ -69,6 +69,8 @@ if (x) {
 - Arguments, parameters, and local variables are stored as values on the stack, but they can be stored as references to the heap by using the keyword "new" followed by the constructor of what you want to allocate.
 
 ## Classes and Inheritance
-- C++ supports objects through classes and structs
+- C++ supports objects through classes and structs, which are extremely similar and can achieve the same functionality with one key difference.
+- Struct's members and base classes are public by default, whereas Class's members and base classes are private by default. Both of these default values can be easily overridden, however, to public, private, or protected.
+- Though they are very similar, the typical convention in C++ is to use structs for simple groupings of data with minimal to no member functions and classes for more complex objects that will have many methods and attributes.
 - Classes and objects will typically use UpperCamelCase where the first letter of each word is uppercase. Their methods and functions will typically be in camelCase where the first letter is lowercase, or snake_case with all lowercase letters.
 - C++ does not have any standard methods for functions that serve a similar purpose across all objects, such as __str__() in Python or toString() in Java.
