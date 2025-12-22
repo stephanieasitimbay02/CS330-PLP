@@ -30,7 +30,12 @@ We use the cout command to print "Hello, World!" to the terminal, and endl will 
 - Variables must start with an alphabet, but they can include underscores and numbers.
 - Both camelCase and snake_case are acceptable to use for naming variables in C++
 - C++ is statically typed, meaning if you declare a variable as an int, you cannot later store a string in that variable.
-- There's some debate on whether C++ is more strongly or weakly typed because it does allow for some implicit conversions, making it not as strong as it could be
+- There's some debate on whether C++ is more strongly or weakly typed because it does allow for some implicit conversions, making it not as strong as it could be. However, trying to add an int to a string will not work
+```c++
+ //adding a string to an int will not work
+    string x = "5" + 6;
+    cout<< "value of x: "<< x<< endl;
+```
 - C++ is generally explicitly typed because you must always declare variable types.
 Sources:
 - https://en.cppreference.com/w/cpp/keywords.html
