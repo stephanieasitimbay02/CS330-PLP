@@ -67,6 +67,16 @@ int multiply(int x, int y) {
 ```
 - Functions should be defined above their function calls. For example, if you're calling all your functions inside main(), all function definitions should come before main()
 - C++ fully supports recursive functions
+```c++
+//recursive function calculating the factorial of an int
+int factorial(int n) {
+    if (n == 0 || n == 1) {
+        return 1;
+    } else {
+        return n * factorial(n-1);
+    }
+}
+```
 - Functions can accept as many parameters as you want, and they can be of various data types.
 - Functions in C++ do not allow you to return multiple values at the same time, but there are ways around this issue:
   - You can use pointers to pass variables by their address and make changes using a pointer variable
