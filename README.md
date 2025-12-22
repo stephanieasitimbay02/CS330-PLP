@@ -58,6 +58,13 @@ if (x) {
 
 ## Functions
 - The syntax for declaring a function in C++ is: return type function name(parameter type parameter) {function code}
+```c++
+//function that takes two numbers, multiplies them, and returns the sum
+int multiply(int x, int y) {
+    int sum = x * y;
+    return sum;
+}
+```
 - Functions should be defined above their function calls. For example, if you're calling all your functions inside main(), all function definitions should come before main()
 - C++ fully supports recursive functions
 - Functions can accept as many parameters as you want, and they can be of various data types.
