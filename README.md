@@ -109,8 +109,10 @@ My project implemented a console-based task management system in C++ that allows
 - The stream insertion operator (operator<<) is overloaded for both Task and TaskList, allowing for clean and intuitive output using cout.
 - Encapsulation and object-oriented programming
 - Separate Task and TaskList classes with appropriate access control, getters/setters, and friend functions
-User-friendly menu interface
-Clear interactive menu that allows users to easily manage tasks step-by-step, including optional reprinting of menu options.
-Error Handling
-Input validation prevents invalid task numbers and handles empty-list scenarios gracefully.
+- User-friendly menu interface
+- Clear interactive menu that allows users to easily manage tasks step-by-step, including optional reprinting of menu options.
+- Error Handling
+- Input validation prevents invalid task numbers and handles empty-list scenarios gracefully.
+[Link to code](https://github.com/stephanieasitimbay02/CS330-PLP/blob/5ba62e92ea31b4aa6aa91ac77c042bce0dc9ba24/main.cpp#L1)
+
 
