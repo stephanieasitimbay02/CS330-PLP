@@ -96,3 +96,21 @@ int factorial(int n) {
 - Though they are very similar, the typical convention in C++ is to use structs for simple groupings of data with minimal to no member functions and classes for more complex objects that will have many methods and attributes.
 - Classes and objects will typically use UpperCamelCase where the first letter of each word is uppercase. Their methods and functions will typically be in camelCase where the first letter is lowercase, or snake_case with all lowercase letters.
 - C++ does not have any standard methods for functions that serve a similar purpose across all objects, such as __str__() in Python or toString() in Java.
+
+# My Task Manager Project
+My project implemented a console-based task management system in C++ that allows the user to create, manage, and organize their tasks interactively. Each task contains a description, priority level, and completion status. The task list itself is built using a custom doubly linked list, which demonstrates dynamic memory management, pointer manipulation, and an object-oriented design. The program provides a menu-driven interface that enables the user to add tasks, remove tasks, mark tasks as complete, delete all completed tasks, and display the task list in both its original order and sorted by priority.
+
+Some key highlights:
+Custom doubly linked list implementation
+Tasks are stored in a manually implemented doubly linked list using pointers, with next, previous, and length attributes to support efficient insertion and deletion from any position in the list.
+Dynamic memory management
+Tasks are dynamically allocated and safely deallocated using new and delete, including bulk deletion of completed tasks without any memory leaks.
+Operator overloading
+The stream insertion operator (operator<<) is overloaded for both Task and TaskList, allowing for clean and intuitive output using cout.
+Encapsulation and object-oriented programming
+Separate Task and TaskList classes with appropriate access control, getters/setters, and friend functions
+User-friendly menu interface
+Clear interactive menu that allows users to easily manage tasks step-by-step, including optional reprinting of menu options.
+Error Handling
+Input validation prevents invalid task numbers and handles empty-list scenarios gracefully.
+
